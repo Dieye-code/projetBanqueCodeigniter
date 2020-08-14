@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background: white;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/** Css du Header */
+
+.header {
+    background: #20263a;
+    height: 50px;
+    margin: 0;
+    padding-top: 2%;
+    padding-left: 2%;
+    line-height: 30px;
+    font-size: 1.5em;
+}
+
+.logo_1 {
+    color: #1976d2;
+}
+
+.logo_2 {
+    color: white;
+}
+
+
+/** Css du Container */
+
+.container {
+    margin: 2% 5%;
+}
+
+.sideBare {
+    width: 35%;
+    margin: 0% 2%;
+    float: left;
+}
+
+.profil {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.email {
+    padding-left: 5%;
+    font-size: 1.2em;
+    color: #2196f3;
+}
+
+.sideBare_body {
+    width: 80%;
+    text-align: center;
+    font-size: 1.5em;
+    border: 1px solid #2196f3;
+    margin: 2% 4%;
+}
+
+.nav {
+    padding: 5%;
+}
+
+.active {
+    background: #2196f3;
+    color: white;
+}
+
+.panel-primary {
+    border: 1px solid #2196f3;
+    width: 60%;
+    float: right;
+}
+
+.panel-heading {
+    background: #2196f3;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 3% 0;
+}
+
+.panel-body {
+    padding: 5%;
+    font-size: 1.2em;
+    margin-right: 2%;
+}
+
+.control-label {
+    color: #3033358a;
+}
+
+.form-control {
+    display: inline-block;
+    width: 100%;
+    margin: 2% 1%;
+    padding: .375rem .75rem;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    color: #495057;
+    background: white;
+    font-size: .90rem;
+    margin-right: 5%;
+}
+
+.title {
+    width: 40%;
+    margin: auto;
+    font-size: 1.5em;
+    color: #343b42;
+}
+
+.infoClientPhysique,
+.clientMoral,
+.infoNouveauClientMoral,
+.infoNouveauClientPhysique,
+.infoClientPhysiqueSalarie,
+.infoClientEntreprise {
+    display: none;
+}
+
+.btn-primary {
+    display: inline-block;
+    color: white;
+    background: #2196f3;
+    border: 1px solid #2196f3;
+    border-radius: .29rem;
+    text-align: center;
+    padding: 2%;
+    cursor: pointer;
+    margin: 2%;
+}
+
+.invalid {
+    border: 2px solid #e74a3b;
+}
+
+.valid {
+    border: 1px solid #ced4da;
+}
+
+.alert-danger {
+    color: red;
+    display: none;
+}
+
+#dateDeblocage {
+    display: none;
+}
